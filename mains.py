@@ -10,10 +10,10 @@
 #         age = cur - self.year  # Yoshni hisoblash
 #         return f"Yangi yosh: {age}"
 
-# # Ob'yekt yaratamiz
+
 # og = MyAge(2000)
 
-# # Ob'yektni chaqirib, natijani olamiz
+
 # print(og())
 
 
