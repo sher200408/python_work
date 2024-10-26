@@ -1,15 +1,15 @@
-class Dom():
-    """ eta class dom uyda """
-    def __init__(self,name):
-        self.name = name
-    
-    def build(self):
-        print(f"uy nomli {self.name}bor")
-    
-    
-hoter1 = Dom("kochada")
-hoter2 = Dom("tolab toral")
 
-hoter1.build()
-hoter2.build()
-        
+a = {word:len(word) for word in ["hello","hi","www","hello world"]}
+print(a)
+
+date = {
+    "h1":"1",
+    "h2":"2",
+    "h3":"3",
+    "h4":"4",
+}
+
+b = {
+    key.count() for key ,value in date.items()
+}
+print(b)
