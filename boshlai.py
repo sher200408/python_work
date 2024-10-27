@@ -14,18 +14,20 @@ all_person = [person1,person2,person3,person4]
 try :
     while True:
         print("odam ma'lumotlar kirish")
+        pinme = input("karta pin_code kiriting = ")
+        karta = input("karta sss")
+        flag = False
         for item_check in all_person:
-            pinme = input("karta pin_code kiriting")
-            if item_check.pin == pinme.replace:
+            if item_check.pin == pinme and  item_check.karta == karta:
+                flag = True
                 print("-------------------------------")
                 print(f"{item_check.pin} ishladi😊 malads to'g'ri kirtingiz")
                 print("<---------nonononono------------->")
-            else:
-                print("xato boldi")
-                print("---------------")
                 break
-            exit()
-        
-        print("ishladi 😁")
+        if not flag:
+            print("-----------------")
+            print("xato boldi emas")
+            print("---------------")
+    
 except Exception as e:
     print(f"ishlamdi xato {e} 😫")
