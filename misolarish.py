@@ -15,10 +15,24 @@ for i in range(d):
 # print(b)
 # print(b_juft)
 # 2-misol
-n = randrange(1,10)
-print(n)
-massiv_bergan_2_darasi =[]
-for i in range(n+1):
-    massiv_bergan_2_darasi.append(2**i)
+# n = randrange(1,10)
+# print(n)
+# massiv_bergan_2_darasi =[]
+# for i in range(n+1):
+#     massiv_bergan_2_darasi.append(2**i)
 
-print(massiv_bergan_2_darasi)
+# print(massiv_bergan_2_darasi)
+# 3-misol 
+n = 8
+A1 = 1
+D = 2
+temp = A1
+sol = [A1]
+
+for i in range(n - 1):
+    temp += D
+    sol.append(temp)
+    
+for i in sol:
+    print(i, end=' ')
+# @Diyorbek_Dilshodovich
