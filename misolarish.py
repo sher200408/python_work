@@ -35,4 +35,3 @@ for i in range(n - 1):
     
 for i in sol:
     print(i, end=' ')
-# @Diyorbek_Dilshodovich
